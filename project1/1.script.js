@@ -4,7 +4,7 @@ const button = document.getElementById("btn");
 
 button.onclick = () => {
     if (text.className == "show") {
-        text.className = "";
+        text.className = ""; // this will make class empty
         button.innerText = "Read More"
     }
     else {
